@@ -142,7 +142,7 @@
                                         onSubmit={(e)=>{
                                             e.preventDefault()
                                             const form = new FormData(e.target);
-                                            if ( form.get("first-word") === word1 && form.get("first-word") === word2 ) {
+                                            if ( form.get("first-word") === word1 && form.get("second-word") === word2 ) {
                                                 location.href = winPage
                                             } else {
                                                 alert("Пользователь не найден")
